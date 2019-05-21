@@ -95,3 +95,4 @@ iOSInjectionProject/
 *.mp4
 *.radus-imac
 .DS_Store
+*.gz
