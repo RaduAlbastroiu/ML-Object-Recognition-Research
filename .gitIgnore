@@ -94,3 +94,4 @@ iOSInjectionProject/
 *.jpg
 *.mp4
 *.radus-imac
+.DS_Store
