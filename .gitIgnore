@@ -90,9 +90,7 @@ iOSInjectionProject/
 /*.gcno
 **/xcshareddata/WorkspaceSettings.xcsettings
 *.xcuserstate
-*.MOV
 *.jpg
 *.mp4
 *.radus-imac
 .DS_Store
-*.gz
