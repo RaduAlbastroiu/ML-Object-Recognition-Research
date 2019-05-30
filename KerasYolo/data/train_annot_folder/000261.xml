@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>000261.jpg</filename>
+	<path>/Users/radualbastroiu/Documents/My_Projects/Licenta/ML-Object-Recognition/data/CarImagesLabeled/images/000261.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>784</width>
+		<height>588</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Car</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>151</xmin>
+			<ymin>278</ymin>
+			<xmax>640</xmax>
+			<ymax>491</ymax>
+		</bndbox>
+	</object>
+</annotation>
