@@ -1,0 +1,2 @@
+model_checkpoint_path: "yolo-train-5"
+all_model_checkpoint_paths: "yolo-train-5"
