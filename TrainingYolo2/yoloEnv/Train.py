@@ -10,8 +10,8 @@ with tf.Session(config=config) as sess:
           'load':'yolov2-voc.weights', 
           'epoch':100,
           'train':True,
-          'annotation': '/Users/radualbastroiu/Documents/My_projects/Licenta/ML-Object-Recognition/data/soccer_ball_data/annotations/',
-          'dataset': '/Users/radualbastroiu/Documents/My_projects/Licenta/ML-Object-Recognition/data/soccer_ball_data/images/'
+          'annotation': '/Users/radualbastroiu/Documents/My_projects/Licenta/ML-Object-Recognition/data/partial_soccer_ball_data/annotations/',
+          'dataset': '/Users/radualbastroiu/Documents/My_projects/Licenta/ML-Object-Recognition/data/partial_soccer_ball_data/images/'
           #'gpu':1.0
           }
   tfnet = TFNet(options)
