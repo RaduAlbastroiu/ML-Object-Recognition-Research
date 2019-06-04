@@ -7,7 +7,7 @@ config.gpu_options.allow_growth = False
 
 with tf.Session(config=config) as sess:
   options = {'model':'cfg/yolo-train.cfg',
-          'load':1000, 
+          'load':-1, 
           #'epoch':10,
           #'train':True,
           #'annotation': '/Users/radualbastroiu/Documents/My_projects/Licenta/ML-Object-Recognition/data/CarDownloadImagesLabeled/annotations/',
@@ -29,7 +29,8 @@ def displayResults(results, img):
   return img
 
 
-img = cv2.imread('/Users/radualbastroiu/Documents/My_projects/Licenta/ML-Object-Recognition/data/CarDownloadImagesLabeled/images/000007.jpg')
+img = cv2.imread('/Users/radualbastroiu/Documents/My_projects/Licenta/ML-Object-Recognition/data/soccer_ball_data/images/scene00681.png')
+
 imgConv = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 results = tfnet.return_predict(imgConv)
 print(results)
